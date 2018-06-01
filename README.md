@@ -14,5 +14,6 @@ Run `python3 groupassign-hungarian.py --help` for command line options.
 Run `python3 groupassign-hungarian.py --filename=example_preferences.txt --max_group_size=3` for an example of group assignments using the included `example_preferences.txt` file.
 
 If you have a small number of groups (less than 20) you will be fine using the default settings for `--na_weight` and `--discount`.
+
 ---
 [1] Even though the algorithm is deterministic, this script uses randomization to guarantee fairness and will therefore not yield the same outcome every time if there are multiple optimal solutions.
