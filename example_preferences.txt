@@ -1,0 +1,9 @@
+participant_01,group_B,group_A
+participant_02,group_B,group_A
+participant_03,group_B,group_A
+participant_04,group_B,group_A
+participant_05,group_A,group_B
+participant_06,group_A,group_B
+participant_07,group_A,group_C
+participant_08,group_C,group_B
+participant_09,group_B,group_A
