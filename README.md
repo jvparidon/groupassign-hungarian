@@ -1,6 +1,6 @@
 # groupassign-hungarian
 Assign people to groups based on rank preference using the Hungarian algorithm.  
-The Hungarian algorithm is a deterministic* procedure to find a (close to) optimal assignment of participants to groups. The script can handle any number of groups and participants, as long as the number of participants does not exceed the number of groups times the maximum group size.  
+The Hungarian algorithm is a deterministic[^1] procedure to find a (close to) optimal assignment of participants to groups. The script can handle any number of groups and participants, as long as the number of participants does not exceed the number of groups times the maximum group size.  
 
 ## How to use groupassign-hungarian
 Set the maximum group size using `--max_group_size` and specify a comma-separated text file of preferences using `--filename` (an example_preferences.txt file is provided).  
@@ -11,4 +11,4 @@ Run `python3 groupassign-hungarian.py --help` for command line options.
 And run `python3 groupassign-hungarian.py --filename=example_preferences.txt --max_group_size=3` for an example of group assignments using the included example_preferences.txt file
 If you have a small number of groups (less than 20) you will be fine using the default settings for `--na_weight` and `--discount`.  
 
-* Even though the algorithm is deterministic, this script uses randomization to guarantee fairness and will therefore not yield the same outcome every time if there are multiple optimal solutions.
+[^1] Even though the algorithm is deterministic, this script uses randomization to guarantee fairness and will therefore not yield the same outcome every time if there are multiple optimal solutions.
